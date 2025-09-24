@@ -1,0 +1,103 @@
+.History{
+    /* background-color: aquamarine; */
+    font-size: large;
+    font-weight: 600; 
+    
+
+}
+
+img{
+    width: 50vw;
+    height: 50hw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cronology{
+    /* background-color: blueviolet; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+.mainfoto{
+    display: block;
+    margin: 0 auto;
+    width: 50vw;
+    height: 50hw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: black;
+    
+}
+
+th,td{
+    border: 3px solid red
+}
+
+thead, tbody{
+    background-color: aqua;
+    text-align: center;
+    
+}
+
+
+h1{
+    font-size: 50px; font-style: italic;
+    color: blue;
+    background-color: orange
+
+}
+
+h2{
+    font-size: 30px; font-style: oblique;
+    background-color: firebrick;
+}
+
+h3{
+    background-color: red;
+}
+
+li{
+    font-size: x-large;
+    /* background-color: blue; */
+    color: orange;
+}
+
+/* a{
+    color: white;
+} */
+
+button{
+    text-decoration-color: black;
+}
+
+p{
+    color: aliceblue;
+}
+
+.meu-botao {
+  background-color: #0e0f0e56; /* cor de fundo */
+  color: white; /* cor do texto */
+  padding: 8px 10px; /* espaço interno */
+  border: none; /* sem borda */
+  border-radius: 8px; /* cantos arredondados */
+  font-size: 15px; /* tamanho da fonte */
+  cursor: pointer; /* cursor em forma de mão */
+  transition: background-color 0.3s ease; /* animação suave */
+}
+
+/* Efeito quando o mouse passa por cima */
+.meu-botao:hover {
+  background-color: #158f8f;
+}
+
+
