@@ -1,3 +1,12 @@
+body {
+    color: #998b8b;
+    background: url(../src/imagens/Gundam_logo.webp) no-repeat center center fixed;
+    background-size: 40%; 
+    /* font-family: "Roboto Mono", monospace; */
+    line-height: 1.4;
+    padding: 32px 24px;
+}
+
 .History{
     /* background-color: aquamarine; */
     font-size: large;
@@ -7,14 +16,12 @@
 }
 
 img{
-    width: 50vw;
-    height: 50hw;
-    display: flex;
+    width: 80vw;
+    height: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
 
 .cronology{
     /* background-color: blueviolet; */
@@ -84,20 +91,47 @@ p{
     color: aliceblue;
 }
 
-.meu-botao {
-  background-color: #0e0f0e56; /* cor de fundo */
-  color: white; /* cor do texto */
-  padding: 8px 10px; /* espaço interno */
-  border: none; /* sem borda */
-  border-radius: 8px; /* cantos arredondados */
-  font-size: 15px; /* tamanho da fonte */
-  cursor: pointer; /* cursor em forma de mão */
-  transition: background-color 0.3s ease; /* animação suave */
+.meu-botao-01 {
+  background-color: #0f0e0e56;
+  color: white; 
+  padding: 8px 10px; 
+  border: none; 
+  border-radius: 8px; 
+  font-size: 15px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
 }
 
-/* Efeito quando o mouse passa por cima */
-.meu-botao:hover {
-  background-color: #158f8f;
+.meu-botao-02 {
+  background-color: #0f0e0e56;
+  color: white; 
+  padding: 8px 10px; 
+  border: none; 
+  border-radius: 8px; 
+  font-size: 15px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
 }
 
+.meu-botao-03 {
+  background-color: #0f0e0e56;
+  color: white; 
+  padding: 8px 10px; 
+  border: none; 
+  border-radius: 8px; 
+  font-size: 15px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
 
+.meu-botao-01:hover {
+  background-color: #e73c08;
+}
+
+.meu-botao-02:hover {
+  background-color: #7381ce;
+}
+
+.meu-botao-03:hover {
+  background-color: #2adba0f5;
+}
